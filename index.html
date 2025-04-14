@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Tro choi bat hinh nay so</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="controller">
+      <button class="button-19" onclick="initStart()">Start</button>
+      <button class="button-19" onclick="resetTimer()">Reset</button>
+      <button class="button-19" onclick="switchTimer()">Switch</button>
+      <button class="button-19" onclick="nextImage()">Next Image</button>
+    </nav>
+
+    <img id="imageDisplay" src="" alt="cringe" />
+
+    <!-- TODO: add mr incredible become uncanny for more fun -->
+    <div class="timer-area">
+      <div class="player-area">
+        <div class="time phase1" id="player1Timer">1:00</div>
+      </div>
+
+      <div class="player-area">
+        <div class="time phase1" id="player2Timer">1:00</div>
+      </div>
+    </div>
+
+    <div id="overlayScreen" class="hidden">
+      <h1 class="message">congratulations</h1>
+      <button class="replay">Ván nữa !</button>
+
+      <div
+        id="taunt"
+        class="tenor-gif-embed"
+        data-postid="2173721757992636770"
+        data-share-method="host"
+        data-aspect-ratio="1.29885"
+        data-width="100%"
+      >
+        <a
+          href="https://tenor.com/view/clash-royale-clash-of-clans-goblin-green-wah-wah-wah-gif-2173721757992636770"
+          >Clash Royale Clash Of Clans GIF</a
+        >from
+        <a href="https://tenor.com/search/clash+royale-gifs"
+          >Clash Royale GIFs</a
+        >
+      </div>
+      <script
+        type="text/javascript"
+        async
+        src="https://tenor.com/embed.js"
+      ></script>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

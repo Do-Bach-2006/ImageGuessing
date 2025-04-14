@@ -1,0 +1,19 @@
+{
+  "name": "bat-hinh-nay-so",
+  "version": "0.0.1",
+  "description": "\"simple name-guessing game for 2 player\"",
+  "keywords": [
+    "game"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "GnomeRight",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5"
+  }
+}
